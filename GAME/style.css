@@ -1,0 +1,34 @@
+/* End Game Screen - Overlays the Game */
+.end-game-screen {
+    position: fixed; /* Overlay everything */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    display: none;
+    z-index: 10; /* Ensure it's above the game */
+}
+
+/* Rematch Button */
+.rematch-button {
+    background: #ff4757;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.rematch-button:hover {
+    background: #ff6b81;
+}
